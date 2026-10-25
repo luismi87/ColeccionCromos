@@ -23,7 +23,7 @@ onAuthStateChanged(auth,async user=>{
    if(ticket!==session)return;
    // Los cromos no existentes se inicializan con el estado provisional de las fotos.
    // Evitar escritura masiva simultánea: se inicializa una vez por usuario con marcador de control.
-   const marker=doc(db,'colecciones','familiar','cromos','__seed__');
+   const marker=doc(db,'colecciones','familiar','cromos','estado_inicial');
    const seed=await getDoc(marker);
    if(!seed.exists()){
      say('Preparando los cromos iniciales…');
