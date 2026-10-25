@@ -1,0 +1,1 @@
+Publica todos estos archivos juntos en alojamiento HTTPS. Inicia sesión con uno de los dos usuarios de Firebase Authentication. Las reglas Firestore deben autorizar los UID en /colecciones/familiar y /colecciones/familiar/cromos/{cromoId}. No abras el HTML como archivo local. La primera inicialización puede tardar al crear 589 documentos. Estado inicial provisional.

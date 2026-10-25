@@ -1,0 +1,1 @@
+export const firebaseConfig = {"apiKey":"AIzaSyAOvu3-Gz5LbGM2ZPugH8HMbWqLVWYWXRI","authDomain":"coleccioncromos-46cc9.firebaseapp.com","projectId":"coleccioncromos-46cc9","storageBucket":"coleccioncromos-46cc9.firebasestorage.app","messagingSenderId":"424375815496","appId":"1:424375815496:web:509c51481fe6b22b75b77d"};
